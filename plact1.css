@@ -1,0 +1,32 @@
+/* -webkit-background-clip: textの練習 */
+
+body{
+margin:0;
+height:1000px;
+width: 0 auto;
+}
+
+
+}
+
+.logo{
+　position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height:900px;
+  width: 1500px;
+
+}
+.logo strong{
+  display: inline-block;
+  font-size: 150px;
+}
+.text{
+  background-image: linear-gradient(blue,pink,yellow);
+  -webkit-background-clip: text;
+  color: rgba(0,0,0,.2);
+  font-family: fantasy;
+  text-indent: 10px;
+}
