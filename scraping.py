@@ -10,7 +10,8 @@ response=http.request('GET',url)
 #requestでｈｔｍｌを取得
 
 
-#soup=BeautifulSoup(html,"html.parser")
+#soup=BeautifulSoup(html,"html.parser")　
+#html parserとは、テキスト文書を解析し、扱えるデータに変換するプログラム。パーサという。
 soup=BeautifulSoup(response.data,'html.parser')
 
 
