@@ -1,0 +1,15 @@
+#コマンドラインでの入力　仮想環境を作る windows
+mkdir (適当なファイル名、ここではsampleenv）
+
+#sampeenvフォルダに移動
+cd sampleenv
+
+#仮想環境を構築
+python -m venv (適当な環境名、ここではsenv)
+
+#作った仮想環境のフォルダに移動
+cd senv
+Scripts\activate
+
+#これで仮想環境に入ったはずでるときはdeactive
+deactive
